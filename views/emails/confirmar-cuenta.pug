@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        style
+            include ./email.css
+    body 
+        h2 Confirma el teu compte UpTask
+        p Per a finalitzar el procés d\'inscripció només cal que premís el següent botó
+        a(href=`${confirmarUrl}`) Confirmar Inscripció
+        p Si no ports accedir a aquest enllaç visita #{confirmarUrl}
+        p Si no has sol·licitat aquest email, pots ignorar-lo 
